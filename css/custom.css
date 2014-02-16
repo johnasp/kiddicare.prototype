@@ -4,9 +4,18 @@
 .logo {
 	text-align: center;
 }
-.rows {
-	margin-bottom: 10px;
-}
 .budge {
-	padding-bottom: 29px;
+	margin-bottom: 2.2em;
 }
+.tablet-only {
+	display: none;
+}
+@media (min-width: 642px) and (max-width: 1024px) {
+  .tablet-off {
+  	display: none;
+  }
+  .tablet-only {
+  	display: block;
+  }
+}
+
