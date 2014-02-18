@@ -1,14 +1,30 @@
 .columns {
-	border: 0 solid green;
+	border: 1px solid green;
 }	
 .logo {
 	text-align: center;
 }
+.logo img {
+  margin-left: 0px;
+}
 .budge {
 	margin-bottom: 2.2em;
 }
+.budge-20 {
+  margin-bottom: 20px;
+}
 .tablet-only {
 	display: none;
+}
+.menu-icon {
+  background: black;
+}
+i {
+  font-size: 28px;
+  color: white;
+  position: relative;
+  top: -25px;
+  left: -25px;
 }
 @media (min-width: 642px) and (max-width: 1024px) {
   .tablet-off {
